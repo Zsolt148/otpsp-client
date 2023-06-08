@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\DataType;
+namespace Zsolt148\OtpspClient\DataType;
 
 class Base
 {

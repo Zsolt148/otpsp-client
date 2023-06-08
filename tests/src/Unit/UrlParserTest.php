@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit;
+namespace Zsolt148\OtpspClient\Tests\Unit;
 
-use Cheppers\OtpspClient\UrlParser;
+use Zsolt148\OtpspClient\UrlParser;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Cheppers\OtpspClient\UrlParser<extended>
+ * @covers \Zsolt148\OtpspClient\UrlParser<extended>
  */
 class UrlParserTest extends TestCase
 {

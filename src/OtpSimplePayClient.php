@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient;
+namespace Zsolt148\OtpspClient;
 
-use Cheppers\OtpspClient\DataType\BackResponse;
-use Cheppers\OtpspClient\DataType\InstantPaymentNotification;
-use Cheppers\OtpspClient\DataType\PaymentRequest;
-use Cheppers\OtpspClient\DataType\RefundRequest;
-use Cheppers\OtpspClient\DataType\RefundResponse;
-use Cheppers\OtpspClient\DataType\RequestBase;
-use Cheppers\OtpspClient\DataType\PaymentResponse;
+use Zsolt148\OtpspClient\DataType\BackResponse;
+use Zsolt148\OtpspClient\DataType\InstantPaymentNotification;
+use Zsolt148\OtpspClient\DataType\PaymentRequest;
+use Zsolt148\OtpspClient\DataType\RefundRequest;
+use Zsolt148\OtpspClient\DataType\RefundResponse;
+use Zsolt148\OtpspClient\DataType\RequestBase;
+use Zsolt148\OtpspClient\DataType\PaymentResponse;
 use DateTime;
 use DateTimeInterface;
 use Exception;
@@ -83,7 +83,7 @@ class OtpSimplePayClient implements OtpSimplePayClientInterface, LoggerAwareInte
     }
 
     /**
-     * @var \Cheppers\OtpspClient\ChecksumInterface
+     * @var \Zsolt148\OtpspClient\ChecksumInterface
      */
     protected $checksum;
 

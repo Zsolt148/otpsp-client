@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit;
+namespace Zsolt148\OtpspClient\Tests\Unit;
 
-use Cheppers\OtpspClient\Checksum;
-use Cheppers\OtpspClient\DataType\BackResponse;
-use Cheppers\OtpspClient\DataType\InstantPaymentNotification;
-use Cheppers\OtpspClient\DataType\PaymentRequest;
-use Cheppers\OtpspClient\DataType\PaymentResponse;
-use Cheppers\OtpspClient\DataType\RefundRequest;
-use Cheppers\OtpspClient\DataType\RefundResponse;
-use Cheppers\OtpspClient\OtpSimplePayClient;
+use Zsolt148\OtpspClient\Checksum;
+use Zsolt148\OtpspClient\DataType\BackResponse;
+use Zsolt148\OtpspClient\DataType\InstantPaymentNotification;
+use Zsolt148\OtpspClient\DataType\PaymentRequest;
+use Zsolt148\OtpspClient\DataType\PaymentResponse;
+use Zsolt148\OtpspClient\DataType\RefundRequest;
+use Zsolt148\OtpspClient\DataType\RefundResponse;
+use Zsolt148\OtpspClient\OtpSimplePayClient;
 use DateTime;
 use Exception;
 use GuzzleHttp\Client;
@@ -25,7 +25,7 @@ use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 
 /**
- * @covers \Cheppers\OtpspClient\OtpSimplePayClient<extended>
+ * @covers \Zsolt148\OtpspClient\OtpSimplePayClient<extended>
  */
 class OtpSimplePayClientTest extends TestCase
 {
@@ -279,7 +279,7 @@ class OtpSimplePayClientTest extends TestCase
         Request $request
     ) {
         $logger = new NullLogger();
-        /** @var \Cheppers\OtpspClient\Checksum|\PHPUnit\Framework\MockObject\MockObject $checksum */
+        /** @var \Zsolt148\OtpspClient\Checksum|\PHPUnit\Framework\MockObject\MockObject $checksum */
         $checksum = $this
             ->getMockBuilder(Checksum::class)
             ->getMock();
@@ -325,7 +325,7 @@ class OtpSimplePayClientTest extends TestCase
         string $bodyContent
     ) {
         $logger = new NullLogger();
-        /** @var \Cheppers\OtpspClient\Checksum|\PHPUnit\Framework\MockObject\MockObject $checksum */
+        /** @var \Zsolt148\OtpspClient\Checksum|\PHPUnit\Framework\MockObject\MockObject $checksum */
         $checksum = $this
             ->getMockBuilder(Checksum::class)
             ->getMock();
@@ -365,7 +365,7 @@ class OtpSimplePayClientTest extends TestCase
         string $bodyContent
     ): void {
         $logger = new NullLogger();
-        /** @var \Cheppers\OtpspClient\Checksum|\PHPUnit\Framework\MockObject\MockObject $checksum */
+        /** @var \Zsolt148\OtpspClient\Checksum|\PHPUnit\Framework\MockObject\MockObject $checksum */
         $checksum = new Checksum();
         $client = new Client();
 
@@ -501,7 +501,7 @@ class OtpSimplePayClientTest extends TestCase
             'handler' => $handlerStack,
         ]);
 
-        /** @var \Cheppers\OtpspClient\Checksum|\PHPUnit\Framework\MockObject\MockObject $checksum */
+        /** @var \Zsolt148\OtpspClient\Checksum|\PHPUnit\Framework\MockObject\MockObject $checksum */
         $checksum = $this
             ->getMockBuilder(Checksum::class)
             ->getMock();

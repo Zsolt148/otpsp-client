@@ -1,5 +1,5 @@
 {
-    "name": "cheppers/otpsp-client",
+    "name": "zsolt148/otpsp-client",
     "description": "OTP SimplePay client",
     "type": "library",
     "license": "GPL-3.0-or-later",
@@ -12,11 +12,11 @@
         "sort-packages": true
     },
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.4",
         "ext-dom": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^6.2.1",
+        "guzzlehttp/guzzle": "^7.2.1",
         "psr/log": "^1.0"
     },
     "require-dev": {
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cheppers\\OtpspClient\\": "src/"
+            "Zsolt148\\OtpspClient\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cheppers\\OtpspClient\\Tests\\": "tests/src/"
+            "Zsolt148\\OtpspClient\\Tests\\": "tests/src/"
         }
     }
 }

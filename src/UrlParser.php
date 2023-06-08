@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient;
+namespace Zsolt148\OtpspClient;
 
 class UrlParser
 {

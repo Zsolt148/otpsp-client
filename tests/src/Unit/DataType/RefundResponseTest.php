@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit\DataType;
+namespace Zsolt148\OtpspClient\Tests\Unit\DataType;
 
-use Cheppers\OtpspClient\DataType\RefundResponse;
+use Zsolt148\OtpspClient\DataType\RefundResponse;
 
 /**
- * @covers \Cheppers\OtpspClient\DataType\RefundResponse<extended>
+ * @covers \Zsolt148\OtpspClient\DataType\RefundResponse<extended>
  */
 class RefundResponseTest extends ResponseBaseTestBase
 {

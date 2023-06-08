@@ -2,18 +2,18 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit\DataType;
+namespace Zsolt148\OtpspClient\Tests\Unit\DataType;
 
-use Cheppers\OtpspClient\DataType\InstantPaymentNotification;
+use Zsolt148\OtpspClient\DataType\InstantPaymentNotification;
 
 /**
- * @covers \Cheppers\OtpspClient\DataType\InstantPaymentNotification<extended>
+ * @covers \Zsolt148\OtpspClient\DataType\InstantPaymentNotification<extended>
  */
 class InstantPaymentNotificationTest extends ResponseBaseTestBase
 {
 
     /**
-     * @var string|\Cheppers\OtpspClient\DataType\RequestBase
+     * @var string|\Zsolt148\OtpspClient\DataType\RequestBase
      */
     protected $className = InstantPaymentNotification::class;
 

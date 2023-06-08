@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit\DataType;
+namespace Zsolt148\OtpspClient\Tests\Unit\DataType;
 
-use Cheppers\OtpspClient\DataType\RequestBase;
+use Zsolt148\OtpspClient\DataType\RequestBase;
 use PHPUnit\Framework\TestCase;
 
 abstract class RequestBaseTestBase extends TestCase
 {
     /**
-     * @var string|\Cheppers\OtpspClient\DataType\RequestBase
+     * @var string|\Zsolt148\OtpspClient\DataType\RequestBase
      */
     protected $className = '';
 

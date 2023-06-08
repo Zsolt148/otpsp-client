@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit\DataType;
+namespace Zsolt148\OtpspClient\Tests\Unit\DataType;
 
-use Cheppers\OtpspClient\DataType\BackResponse;
+use Zsolt148\OtpspClient\DataType\BackResponse;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Cheppers\OtpspClient\DataType\BackResponse
+ * @covers \Zsolt148\OtpspClient\DataType\BackResponse
  */
 class BackResponseTest extends TestCase
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit\DataType;
+namespace Zsolt148\OtpspClient\Tests\Unit\DataType;
 
-use Cheppers\OtpspClient\DataType\Base;
+use Zsolt148\OtpspClient\DataType\Base;
 use PHPUnit\Framework\TestCase;
 
 abstract class BaseTestBase extends TestCase

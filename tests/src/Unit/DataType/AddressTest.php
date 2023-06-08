@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit\DataType;
+namespace Zsolt148\OtpspClient\Tests\Unit\DataType;
 
-use Cheppers\OtpspClient\DataType\Address;
+use Zsolt148\OtpspClient\DataType\Address;
 
 /**
- * @covers \Cheppers\OtpspClient\DataType\Address<extended>
+ * @covers \Zsolt148\OtpspClient\DataType\Address<extended>
  */
 class AddressTest extends BaseTestBase
 {

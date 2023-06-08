@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-use Cheppers\OtpspClient\Checksum;
-use Cheppers\OtpspClient\DataType\Item;
-use Cheppers\OtpspClient\DataType\PaymentRequest;
-use Cheppers\OtpspClient\OtpSimplePayClient;
-use Cheppers\OtpspClient\OtpSimplePayClientInterface;
+use Zsolt148\OtpspClient\Checksum;
+use Zsolt148\OtpspClient\DataType\Item;
+use Zsolt148\OtpspClient\DataType\PaymentRequest;
+use Zsolt148\OtpspClient\OtpSimplePayClient;
+use Zsolt148\OtpspClient\OtpSimplePayClientInterface;
 use GuzzleHttp\Client;
 use Psr\Log\Test\TestLogger;
 

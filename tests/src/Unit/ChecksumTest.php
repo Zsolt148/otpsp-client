@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit;
+namespace Zsolt148\OtpspClient\Tests\Unit;
 
-use Cheppers\OtpspClient\Checksum;
+use Zsolt148\OtpspClient\Checksum;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Cheppers\OtpspClient\Checksum<extended>
+ * @covers \Zsolt148\OtpspClient\Checksum<extended>
  */
 class ChecksumTest extends TestCase
 {

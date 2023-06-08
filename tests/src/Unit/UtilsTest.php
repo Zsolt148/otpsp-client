@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit;
+namespace Zsolt148\OtpspClient\Tests\Unit;
 
-use Cheppers\OtpspClient\Utils;
+use Zsolt148\OtpspClient\Utils;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Cheppers\OtpspClient\Utils
+ * @covers \Zsolt148\OtpspClient\Utils
  */
 class UtilsTest extends TestCase
 {

@@ -2,20 +2,20 @@
 
 declare(strict_types = 1);
 
-namespace Cheppers\OtpspClient\Tests\Unit\DataType;
+namespace Zsolt148\OtpspClient\Tests\Unit\DataType;
 
-use Cheppers\OtpspClient\DataType\Address;
-use Cheppers\OtpspClient\DataType\Item;
-use Cheppers\OtpspClient\DataType\PaymentRequest;
-use Cheppers\OtpspClient\DataType\Urls;
+use Zsolt148\OtpspClient\DataType\Address;
+use Zsolt148\OtpspClient\DataType\Item;
+use Zsolt148\OtpspClient\DataType\PaymentRequest;
+use Zsolt148\OtpspClient\DataType\Urls;
 
 /**
- * @covers \Cheppers\OtpspClient\DataType\PaymentRequest<extended>
+ * @covers \Zsolt148\OtpspClient\DataType\PaymentRequest<extended>
  */
 class PaymentRequestTest extends RequestBaseTestBase
 {
     /**
-     * @var string|\Cheppers\OtpspClient\DataType\RequestBase
+     * @var string|\Zsolt148\OtpspClient\DataType\RequestBase
      */
     protected $className = PaymentRequest::class;
 
